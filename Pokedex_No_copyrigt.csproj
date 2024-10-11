@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>warnings</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>Pokedex_No_copyrigt.Program</StartupObject>
+    <AssemblyName>Poke_XD</AssemblyName>
+    <ApplicationIcon>icons8-psyduck-50.ico</ApplicationIcon>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SignAssembly>False</SignAssembly>
+    <AssemblyOriginatorKeyFile>Sosa Vera Jesus Eduardo</AssemblyOriginatorKeyFile>
+    <DelaySign>True</DelaySign>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>Poke_XD</Title>
+    <Authors>Jesus Eduardo Sosa Vera</Authors>
+    <Company>Jesus Eduardo Sosa Vera</Company>
+    <Product>Poke_XD</Product>
+    <Description>Es una aplicacion para la familia XD</Description>
+    <Copyright>No copirit</Copyright>
+    <PackageIcon>icons8-psyduck-50.png</PackageIcon>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <IsPublishable>True</IsPublishable>
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <IsPublishable>True</IsPublishable>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="LICENSE.txt" />
+    <None Remove="principal.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icons8-psyduck-50.ico" />
+    <Content Include="principal.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\icons8-psyduck-50.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

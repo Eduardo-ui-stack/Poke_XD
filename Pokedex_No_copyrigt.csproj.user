@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Eduar\source\repos\Pokedex_No_copyrigt\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\buscador_pokemon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\FormAbilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\FormRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\FormTipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\FormUsuarioscs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\Intercambios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\Pokedex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\registrode_poke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\regitros_usu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

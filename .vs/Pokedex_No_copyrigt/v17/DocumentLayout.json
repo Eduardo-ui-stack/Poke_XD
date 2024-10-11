@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eduar\\source\\repos\\Pokedex_No_copyrigt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B32FF7D-FBC3-4883-A381-7F09B6ACA4F7}|Pokedex_No_copyrigt.csproj|c:\\users\\eduar\\source\\repos\\pokedex_no_copyrigt\\clases\\cconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B32FF7D-FBC3-4883-A381-7F09B6ACA4F7}|Pokedex_No_copyrigt.csproj|solutionrelative:clases\\cconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B32FF7D-FBC3-4883-A381-7F09B6ACA4F7}|Pokedex_No_copyrigt.csproj|c:\\users\\eduar\\source\\repos\\pokedex_no_copyrigt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B32FF7D-FBC3-4883-A381-7F09B6ACA4F7}|Pokedex_No_copyrigt.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B32FF7D-FBC3-4883-A381-7F09B6ACA4F7}|Pokedex_No_copyrigt.csproj|c:\\users\\eduar\\source\\repos\\pokedex_no_copyrigt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B32FF7D-FBC3-4883-A381-7F09B6ACA4F7}|Pokedex_No_copyrigt.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Eduar\\source\\repos\\Pokedex_No_copyrigt\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Eduar\\source\\repos\\Pokedex_No_copyrigt\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T23:56:59.984Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CConexion.cs",
+              "DocumentMoniker": "C:\\Users\\Eduar\\source\\repos\\Pokedex_No_copyrigt\\Clases\\CConexion.cs",
+              "RelativeDocumentMoniker": "Clases\\CConexion.cs",
+              "ToolTip": "C:\\Users\\Eduar\\source\\repos\\Pokedex_No_copyrigt\\Clases\\CConexion.cs",
+              "RelativeToolTip": "Clases\\CConexion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:51:25.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eduar\\source\\repos\\Pokedex_No_copyrigt\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Eduar\\source\\repos\\Pokedex_No_copyrigt\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T06:09:51.179Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
